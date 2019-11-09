@@ -4,7 +4,7 @@ import os, warnings, sys
 import time , collections
 import datetime
 import data_helpers
-from text_cnn import TextCNN
+from concet import TextCNN
 from tensorflow.contrib import learn
 from sklearn.utils import shuffle
 from sklearn.preprocessing import normalize
