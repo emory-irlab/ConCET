@@ -4,8 +4,8 @@ import numpy as np
 
 class TextCNN(object):
     """
-    A CNN for text classification.
-    Uses an embedding layer, followed by a convolutional, max-pooling and softmax layer.
+    ConCET for text classification.
+    
     """
     def __init__(self, sequence_length, num_classes, num_quantized_chars, sequence_char_length, vocab_size, vocab_entity_size, vocab_pos_size,
     embedding_size, embedding_entity_size, embedding_pos_size, embedding_char_size, filter_sizes, num_filters, l2_reg_lambda=0.0):
