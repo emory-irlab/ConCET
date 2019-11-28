@@ -4,7 +4,7 @@ import numpy as np
 
 class TextCNN(object):
     """
-    ConCET for text classification.
+    ConCET for utterance classification.
     
     """
     def __init__(self, sequence_length, num_classes, num_quantized_chars, sequence_char_length, vocab_size, vocab_entity_size, vocab_pos_size,
